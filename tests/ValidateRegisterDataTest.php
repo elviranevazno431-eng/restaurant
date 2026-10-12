@@ -18,7 +18,7 @@ class ValidateRegisterDataTest {
             'name' => 'Иван Петров',
             'email' => 'ivan@example.com',
             'password' => 'secure123'
-        ], false); // <--- ТЕПЕРЬ ТУТ false
+        ], true); // <--- ВЕРНУЛИ true
         
         // Тест 2: Пустое имя
         self::test('Пустое имя', [
